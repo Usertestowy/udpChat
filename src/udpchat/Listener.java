@@ -43,7 +43,8 @@ public class Listener extends Thread{
     public void run() {
         super.run(); 
         byte[] buf = new byte[256];
-        DatagramPacket packet = new DatagramPacket(buf, buf.length);
+   byte[] buf = new byte[256];
+      DatagramPacket packet = new DatagramPacket(buf, buf.length);
         
         try {
             
